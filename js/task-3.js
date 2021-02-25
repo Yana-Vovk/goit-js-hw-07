@@ -20,4 +20,4 @@ const arrOfImg = images.map(item =>
     `<li><img src="${item.url}" alt="${item.alt}"></img></li>`);
 
 const galleryRef = document.querySelector("#gallery");
-galleryRef.insertAdjacentHTML("afterbegin", [...arrOfImg]);
+galleryRef.insertAdjacentHTML("afterbegin", arrOfImg.join(''));
