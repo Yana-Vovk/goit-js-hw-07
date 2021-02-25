@@ -1,0 +1,9 @@
+#gallery {
+  display: flex;
+}
+
+img {
+  width: 200px;
+
+  padding-right: 30px;
+}
