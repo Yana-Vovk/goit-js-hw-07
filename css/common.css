@@ -28,3 +28,12 @@ img {
   display: flex;
   margin-top: 20px;
 }
+
+#controls {
+  margin-top: 20px;
+  margin-bottom: 20px;
+}
+
+#boxes > div {
+  margin-bottom: 10px;
+}
